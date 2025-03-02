@@ -20,8 +20,12 @@ Cette application web permet aux étudiants de postuler aux différentes formati
 - Gestion des formations et des quotas.  
 - Export des données au format **Excel, CSV, PDF**.
 
-## 📌 Capture d'écran
-
+## 📷 Capture d'écran
+![capture d'écran](https://github.com/yassinekamouss/Fstt-candidature/blob/bf0220ffe5bfdfa71d83341fcb2a72bccbe9b0b4/Capture%20d'%C3%A9cran%202025-03-02%20130934.png)
+![capture d'écran](https://github.com/yassinekamouss/Fstt-candidature/blob/bf0220ffe5bfdfa71d83341fcb2a72bccbe9b0b4/Capture%20d'%C3%A9cran%202025-03-02%20131001.png)
+![capture d'écran](https://github.com/yassinekamouss/Fstt-candidature/blob/bf0220ffe5bfdfa71d83341fcb2a72bccbe9b0b4/Capture%20d'%C3%A9cran%202025-03-02%20131039.png)
+![capture d'écran](https://github.com/yassinekamouss/Fstt-candidature/blob/bf0220ffe5bfdfa71d83341fcb2a72bccbe9b0b4/Capture%20d'%C3%A9cran%202025-03-02%20131120.png)
+![capture d'écran](https://github.com/yassinekamouss/Fstt-candidature/blob/bf0220ffe5bfdfa71d83341fcb2a72bccbe9b0b4/Capture%20d'%C3%A9cran%202025-03-02%20133906.png)
 
 ## 🚀 Installation et Configuration  
 
