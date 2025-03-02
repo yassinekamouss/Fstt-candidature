@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vérification de compte</title>
+    <style>
+        @font-face {
+            font-family: 'Roboto';
+            src: url('../assets/fonts/Roboto-Regular.ttf') format('truetype');
+            font-weight: 400; /* Regular */
+            font-style: normal;
+        }
+        body {
+            font-family: "Roboto", "sans-serif" ;
+            line-height: 1.5;
+            color : #333;
+            margin: 0;
+            padding: 0;
+        }
+        .email-container {
+            max-width: 560px;
+            margin: 20px;
+            background: #fff;
+            padding: 20px;
+            border: 1px solid #b9b9b9;
+            border-radius: 8px;
+            /* box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15); */
+        }
+        .email-header {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .email-header h1 {
+            color: #000000;
+            margin: 0;
+        }
+        .email-body {
+            margin-bottom: 20px;
+        }
+        .email-footer {
+            text-align: center;
+            color: #666;
+            font-size: 12px;
+        }
+        .btn {
+            display: inline-block;
+            background: #007BFF;
+            color: #fff;
+            text-decoration: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            font-size: 16px;
+        }
+        .btn:hover {
+            background: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <div class="email-container">
+        <div class="email-header">
+            <h1>Activer votre compte</h1>
+        </div>
+        <div class="email-body">
+            <p>Bonjour,</p>
+            <p>Pour activer votre compte et finaliser votre inscription, veuillez cliquer sur le bouton ci-dessous :</p>
+            <p style="text-align: center;">
+                <a href="{{verification_link}}" class="btn" style="text-decoration: none; color: #fff;">Activer mon compte</a>
+            </p>
+            <p>Une fois votre compte activé, vous pourrez vous connecter avec les informations suivantes :</p>
+            <ul>
+                <li><strong>Email :</strong> {{user_email}}</li>
+                <li><strong>Mot de passe :</strong> Celui que vous avez défini lors de votre inscription</li>
+            </ul>
+            <p>Si vous n'avez pas créé de compte sur notre site, vous pouvez ignorer cet email.</p>
+        </div>
+        <div class="email-footer">
+            <p>Merci,</p>
+            <p>L'équipe FSTT</p>
+        </div>
+    </div>
+</body>
+</html>
